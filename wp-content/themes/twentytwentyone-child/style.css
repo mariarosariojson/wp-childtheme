@@ -1,0 +1,56 @@
+/*
+ Theme Name:   Test-Child theme 
+ Theme URI:    http://example.com/twenty-twenty-child/
+ Description:  Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     twentytwentyone
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwentyonechild
+*/
+
+:root {
+  --font-headings: "Times New Roman", Times, serif;
+  --font-base: "Times New Roman", Times, serif;
+}
+
+#page {
+  background-color: salmon;
+  color: whitesmoke;
+}
+
+#test-class .site-header {
+  background-image: url("./src/California-Wallpaper-001.jpg");
+  background-position: center;
+  max-width: none;
+  width: 100%;
+  margin: 0;
+  color: salmon;
+}
+
+#test-class .site-title {
+  font-size: 30px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+footer #colophon .site-footer {
+  background-color: whitesmoke;
+}
+
+.site-footer ul.menu {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
+  background-color: aqua;
+}
+
+.site-footer ul.menu li {
+  text-align: center;
+  border: 1px solid red;
+}
