@@ -6,7 +6,6 @@
             "key": "field_64528dbf9ad0e",
             "label": "image",
             "name": "image",
-            "aria-label": "",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -16,6 +15,7 @@
                 "class": "",
                 "id": ""
             },
+            "aria-label": "",
             "return_format": "array",
             "library": "all",
             "min_width": "",
@@ -31,9 +31,9 @@
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "block",
                 "operator": "==",
-                "value": "post"
+                "value": "acf\/hero"
             }
         ]
     ],
@@ -45,6 +45,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "show_in_rest": 0,
-    "modified": 1683131954
+    "modified": 1683187611
 }

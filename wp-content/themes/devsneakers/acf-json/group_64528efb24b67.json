@@ -6,7 +6,6 @@
             "key": "field_64528efbc98b4",
             "label": "Product image",
             "name": "product_image",
-            "aria-label": "",
             "type": "image",
             "instructions": "",
             "required": 0,
@@ -16,6 +15,7 @@
                 "class": "",
                 "id": ""
             },
+            "aria-label": "",
             "return_format": "array",
             "library": "all",
             "min_width": "",
@@ -31,7 +31,6 @@
             "key": "field_64528f19c98b5",
             "label": "Collection",
             "name": "collection",
-            "aria-label": "",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -41,6 +40,7 @@
                 "class": "",
                 "id": ""
             },
+            "aria-label": "",
             "default_value": "",
             "maxlength": "",
             "placeholder": "",
@@ -51,7 +51,6 @@
             "key": "field_64528f30c98b6",
             "label": "Product title",
             "name": "product_title",
-            "aria-label": "",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -61,6 +60,7 @@
                 "class": "",
                 "id": ""
             },
+            "aria-label": "",
             "default_value": "",
             "maxlength": "",
             "placeholder": "",
@@ -71,7 +71,6 @@
             "key": "field_64528f3cc98b7",
             "label": "Product price",
             "name": "product_price",
-            "aria-label": "",
             "type": "text",
             "instructions": "",
             "required": 0,
@@ -81,6 +80,7 @@
                 "class": "",
                 "id": ""
             },
+            "aria-label": "",
             "default_value": "",
             "maxlength": "",
             "placeholder": "",
@@ -91,7 +91,6 @@
             "key": "field_64528f4ac98b8",
             "label": "Product description",
             "name": "product_description",
-            "aria-label": "",
             "type": "textarea",
             "instructions": "",
             "required": 0,
@@ -101,6 +100,7 @@
                 "class": "",
                 "id": ""
             },
+            "aria-label": "",
             "default_value": "",
             "maxlength": "",
             "rows": "",
@@ -111,7 +111,6 @@
             "key": "field_64528f65c98b9",
             "label": "Product link",
             "name": "product_link",
-            "aria-label": "",
             "type": "link",
             "instructions": "",
             "required": 0,
@@ -121,15 +120,16 @@
                 "class": "",
                 "id": ""
             },
+            "aria-label": "",
             "return_format": "array"
         }
     ],
     "location": [
         [
             {
-                "param": "post_type",
+                "param": "block",
                 "operator": "==",
-                "value": "post"
+                "value": "acf\/highlight"
             }
         ]
     ],
@@ -141,6 +141,5 @@
     "hide_on_screen": "",
     "active": true,
     "description": "",
-    "show_in_rest": 0,
-    "modified": 1683132291
+    "modified": 1683187721
 }
